@@ -1,28 +1,32 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- immetto i vari tag che ho usato -->
+    <MbHeader/>
+
+    <MbMain/>
+
+    <MbShop/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import nome dell'export che abbiamo dato from 'percorso del file'
+import MbHeader from './components/MbHeader.vue';
+import MbMain from './components/MbMain.vue';
+import MbShop from './components/MbShop.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // Solo in nome che abbiamo dato 
+    MbHeader,
+    MbMain,
+    MbShop
   }
 }
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  @import './assets/style/general';
+  @import './assets/style/utils';
 </style>
