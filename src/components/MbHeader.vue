@@ -98,7 +98,10 @@ header{
     height: 100%;
 
     .logo{
-      width: 90px;
+      width: 80px;
+      img{
+        width: 100%
+      }
     }
 
     .menu{
