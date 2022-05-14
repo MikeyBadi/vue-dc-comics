@@ -23,6 +23,7 @@
     background-color: black;
     color: $primary-color;
     padding: 50px 0;
+    height: 200px;
   }
 
 </style>
