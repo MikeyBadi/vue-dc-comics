@@ -6,6 +6,7 @@
     <MbMain/>
 
     <MbShop/>
+    <MbFooterLink/>
   </div>
 </template>
 
@@ -13,7 +14,8 @@
 // import nome dell'export che abbiamo dato from 'percorso del file'
 import MbHeader from './components/MbHeader.vue';
 import MbMain from './components/MbMain.vue';
-import MbShop from './components/MbShop.vue'
+import MbShop from './components/MbShop.vue';
+import MbFooterLink from './components/MbFooterLink.vue';
 
 export default {
   name: 'App',
@@ -21,7 +23,9 @@ export default {
     // Solo in nome che abbiamo dato 
     MbHeader,
     MbMain,
-    MbShop
+    MbShop,
+    MbFooterLink
+
   }
 }
 </script>
