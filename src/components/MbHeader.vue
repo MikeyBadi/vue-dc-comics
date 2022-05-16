@@ -17,14 +17,18 @@
       </div>
 
     </nav>
-
+  <MbJumbotron/>
   </header>
 
 </template>
 
 <script>
+import MbJumbotron from './MbJumbotron.vue'
 export default {
   name: 'MbHeader',
+  components:{
+    MbJumbotron
+  },
   data() {
     return {
       menu:[
@@ -91,8 +95,8 @@ export default {
 
 
 header{
-  height: 120px;
   nav{
+    height: 120px;
     @include center();
     justify-content: space-between;
     height: 100%;
