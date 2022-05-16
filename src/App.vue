@@ -16,7 +16,7 @@ import MbHeader from './components/MbHeader.vue';
 import MbMain from './components/MbMain.vue';
 import MbShop from './components/MbShop.vue';
 import MbFooterLink from './components/MbFooterLink.vue';
-import dcJson from './assets/data/dc-comics.json'
+
 
 export default {
   name: 'App',
@@ -30,7 +30,6 @@ export default {
 
   data() {
     return {
-      json: dcJson
     }
   },
   mounted(){
